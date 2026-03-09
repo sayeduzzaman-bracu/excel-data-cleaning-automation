@@ -60,4 +60,15 @@ Each demo folder contains:
 
 ## Purpose
 
+## Related Projects
+
+**BusBuzz AI Agent**
+
+AI-powered support agent designed for automated intercity bus ticket queries.
+
+🏆 Second Prize – AgentX AI Support Automation Challenge
+
+Repository:
+https://github.com/sayeduzzaman-bracu/BusBuzz-AI-Agent
+
 This project demonstrates how Python automation can save time when cleaning messy datasets and preparing them for analysis or reporting.
