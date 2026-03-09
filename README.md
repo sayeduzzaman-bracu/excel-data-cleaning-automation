@@ -23,6 +23,20 @@ The cleaning script can:
 - Detect and handle missing values
 - Export a cleaned Excel file automatically
 
+## Example Data Cleaning Result
+
+### Raw Dataset (Before Cleaning)
+
+![Raw Data](01_sales_data_cleaning/Screenshots/Raw%20Data.png)
+
+### Cleaned Dataset (After Cleaning)
+
+![Cleaned Data](01_sales_data_cleaning/Screenshots/Cleaned%20data.png)
+
+### Automation Report
+
+![Report](01_sales_data_cleaning/Screenshots/Cleaner%20Report.png)
+
 ## Demo Projects
 
 This repository includes three example data-cleaning cases:
