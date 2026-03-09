@@ -62,6 +62,8 @@ Each demo folder contains:
 
 ## Related Projects
 
+This project demonstrates how Python automation can save time when cleaning messy datasets and preparing them for analysis or reporting.
+
 **BusBuzz AI Agent**
 
 AI-powered support agent designed for automated intercity bus ticket queries.
@@ -71,4 +73,3 @@ AI-powered support agent designed for automated intercity bus ticket queries.
 Repository:
 https://github.com/sayeduzzaman-bracu/BusBuzz-AI-Agent
 
-This project demonstrates how Python automation can save time when cleaning messy datasets and preparing them for analysis or reporting.
