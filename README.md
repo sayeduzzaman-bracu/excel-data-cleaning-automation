@@ -1,22 +1,63 @@
-# Real Dataset Cleaning Example
+# Excel Data Cleaning Automation (Python)
 
-This example shows how the Python cleaning script handled a real retail sales dataset.
+Python automation for cleaning messy Excel/CSV datasets such as duplicates, formatting issues, and missing values.
 
-## Cleaning Actions Performed
+This repository demonstrates how Python can automatically clean and standardize business datasets exported from Excel or CSV files.
 
-- normalized transaction dates to YYYY-MM-DD
-- standardized boolean-like values in `discount_applied`
-- inferred missing `price_per_unit` values from `total_spent ÷ quantity`
-- inferred missing `item` values from `(category, price_per_unit)` mapping
-- replaced blank `discount_applied` values with `Unknown`
+Businesses often export data that contains duplicate rows, missing values, inconsistent formatting, or extra spaces.  
+This project shows how Python automation can quickly clean such datasets.
 
-## Result Summary
+## Tools Used
 
-- Rows before: 12575
-- Rows after: 12575
-- Duplicates removed: 0
-- Missing values significantly reduced in multiple columns
+- Python
+- pandas
+- openpyxl
 
-## Remaining Missing Values
+## What the Automation Does
 
-Some rows still had missing `total_spent` and `quantity` values that could not be safely inferred. These were left unchanged to avoid incorrect assumptions.
+The cleaning script can:
+
+- Remove duplicate rows
+- Trim extra spaces in text fields
+- Standardize column names
+- Detect and handle missing values
+- Export a cleaned Excel file automatically
+
+## Example Data Cleaning Result
+
+### Raw Dataset (Before Cleaning)
+
+![Raw Data](01_sales_data_cleaning/Screenshots/Raw%20Data.png)
+
+### Cleaned Dataset (After Cleaning)
+
+![Cleaned Data](01_sales_data_cleaning/Screenshots/Cleaned%20data.png)
+
+### Automation Report
+
+![Report](01_sales_data_cleaning/Screenshots/Cleaner%20Report.png)
+
+## Demo Projects
+
+This repository includes three example data-cleaning cases:
+
+### 1. Sales Data Cleaning
+Removes duplicate sales entries and fixes inconsistent product names.
+
+### 2. Customer Contact Cleanup
+Cleans duplicate contacts, fixes capitalization issues, and detects missing phone numbers.
+
+### 3. Inventory Dataset Cleaning
+Standardizes product names and removes duplicate inventory entries.
+
+Each demo folder contains:
+
+- Raw dataset
+- Cleaned dataset
+- Python cleaning script
+- Before/after screenshots
+- Cleaning report
+
+## Purpose
+
+This project demonstrates how Python automation can save time when cleaning messy datasets and preparing them for analysis or reporting.
